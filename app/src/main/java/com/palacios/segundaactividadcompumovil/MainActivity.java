@@ -42,12 +42,13 @@ public class MainActivity extends AppCompatActivity {
         img_camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(view.getContext(), ContactsActivity.class);
+                startActivity(intent);
             }
         });
 
         //On click maps
-        img_camera.setOnClickListener(new View.OnClickListener() {
+        img_maps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
