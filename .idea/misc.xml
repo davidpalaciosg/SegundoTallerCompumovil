@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documentos/Universidad/Semestre 7/Compumovil/SegundoTallerCompumovil/app/src/main/res/layout/activity_camera.xml" value="0.16" />
+        <entry key="..\:/Documentos/Universidad/Semestre 7/Compumovil/SegundoTallerCompumovil/app/src/main/res/layout/activity_contacts.xml" value="0.1" />
+        <entry key="..\:/Documentos/Universidad/Semestre 7/Compumovil/SegundoTallerCompumovil/app/src/main/res/layout/contactitem.xml" value="0.25" />
         <entry key="..\:/Users/Estudiante/Documents/DavidPalacios/Compumovil/SegundaActividadCompumovil/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.207" />
         <entry key="..\:/Users/Estudiante/Documents/DavidPalacios/Compumovil/SegundaActividadCompumovil/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.207" />
         <entry key="..\:/Users/Estudiante/Documents/DavidPalacios/Compumovil/SegundaActividadCompumovil/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.207" />

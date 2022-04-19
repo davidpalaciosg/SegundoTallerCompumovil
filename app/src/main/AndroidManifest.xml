@@ -42,7 +42,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.testapp.fileprovider"
+            android:authorities="com.palacios.segundaactividadcompumovil.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
