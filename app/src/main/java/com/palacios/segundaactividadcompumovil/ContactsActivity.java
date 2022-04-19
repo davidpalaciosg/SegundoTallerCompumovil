@@ -59,7 +59,7 @@ public class ContactsActivity extends AppCompatActivity {
         }
     }
 
-    //solicitar permisos
+    //Ask contacts permission
     ActivityResultLauncher<String> getSinglePermission = registerForActivityResult(
             new ActivityResultContracts.RequestPermission(),
             new ActivityResultCallback<Boolean>() {
