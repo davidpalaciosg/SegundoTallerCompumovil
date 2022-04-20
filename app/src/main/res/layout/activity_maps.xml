@@ -11,19 +11,39 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/map">
+
     </org.osmdroid.views.MapView>
 
-    <EditText
-        android:id="@+id/locationText"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:background="#AD3F51B5"
-        android:hint="Digite un lugar:"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textSize="24sp"
-        android:inputType="text"
-        android:imeOptions="actionSend"/>
+        android:background="#00AA1313"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/searchAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.8"
+            android:height="48dp"
+            android:background="#813F51B5"
+            android:backgroundTint="#3F51B5"
+            android:ems="10"
+            android:hint="DIgite un lugar: "
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.2"
+            android:height="48dp"
+            android:text="Buscar" />
+    </LinearLayout>
 
 </FrameLayout>
